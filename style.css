@@ -215,6 +215,7 @@ dd{margin:0;font-weight:600;color:var(--ink);white-space:nowrap;font-size:16px}
 }
 @media (max-width:1060px){
   :root{--head:60px}
+  .top{backdrop-filter:none;-webkit-backdrop-filter:none;background:#fff}
   .menu,.top-tel span{display:none}
   .top-in{gap:8px}
   .top-tel{margin-left:auto;width:44px;height:44px;padding:0;justify-content:center;border-color:var(--linia)}
